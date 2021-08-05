@@ -3,9 +3,9 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		
 		DataHandler dataHandler = new DataHandler();
-		dataHandler.jdbcUrl = "jdbc:oracle:thin:@//10.0.2.161:1521/DEVL.dbipaiepnp.ipaieprednp.oraclevcn.com";
-		dataHandler.userid = "BANINST1";
-		dataHandler.password = "devl2021";
+		dataHandler.jdbcUrl = "jdbc:oracle:thin:@//ip:puerto/sid_or_servicename";
+		dataHandler.userid = "usuario";
+		dataHandler.password = "clave";
 		
 		dataHandler.getDBConnection();
 		
